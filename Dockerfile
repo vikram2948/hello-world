@@ -1,5 +1,5 @@
 # Pull base image 
-From tomcat:8-jre8 
+FROM davidcaste/alpine-tomcat:latest 
 
 # Maintainer 
 MAINTAINER "vikram2948@gmail.com" 
