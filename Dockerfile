@@ -1,6 +1,6 @@
 # Pull base image 
 #FROM davidcaste/alpine-tomcat:latest 
-FROM tomcat
+FROM tomcat:8-jre8 
 #ENTRYPOINT bash
 # Maintainer 
 MAINTAINER "vikram2948@gmail.com" 
