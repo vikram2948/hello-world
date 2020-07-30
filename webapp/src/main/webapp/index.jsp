@@ -4,5 +4,5 @@
 <h3> get job </h3>
 <h4> C U </h4>
 <h6> Again </h6>
-<h1> Learn EKS </h1
+<h1> Learn AWS EKS </h1
 
