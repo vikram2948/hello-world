@@ -6,7 +6,9 @@ FROM tomcat:8.0-alpine
 LABEL MAINTAINER "vikram2948@gmail.com"
 #RUN adduser -D tomcat; chown -R tomcat:tomcat /usr/local/tomcat
 #USER tomcat
-ADD ./webapp.war /usr/local/tomcat/webapps
+RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
+
+ADD ./webapp.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
