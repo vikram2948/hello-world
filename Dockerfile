@@ -8,7 +8,7 @@ LABEL MAINTAINER "vikram2948@gmail.com"
 #USER tomcat
 RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
 
-ADD ./server.jar /usr/local/tomcat/webapps/ROOT.jar
+ADD ./webapp.war /usr/local/tomcat/webapps/ROOT.jar
 
 #EXPOSE 8080
 
