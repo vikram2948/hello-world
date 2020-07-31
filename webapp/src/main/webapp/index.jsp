@@ -1,4 +1,4 @@
-<h1> Hello vickram reddy, Welcome to Valaxy Technologies !!! </h1>
+<h1> Hello vickram reddy, Welcome to both EC2 !!! </h1>
 <h2> Deploying on Kubernetes </h2>
 <h3> One last thing</h3>
 <h3> get job </h3>
